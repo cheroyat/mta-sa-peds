@@ -1,0 +1,39 @@
+<meta>
+    <info
+        author="Mta creat"
+        version="1.0"
+        name="NPC HLC Social"
+        description="Ambient talking pairs for npc_hlc pedestrians"
+        type="script"
+    />
+
+    <script src="social_s.lua" type="server" />
+    <script src="social_c.lua" type="client" />
+    <script src="fight_s.lua" type="server" />
+    <script src="fight_c.lua" type="client" />
+    <script src="retaliation_s.lua" type="server" />
+    <script src="retaliation_c.lua" type="client" />
+
+    <settings>
+        <setting name="*talking_enabled" value="true" />
+        <setting name="*talking_check_interval" value="1000" />
+        <setting name="*talking_chance_percent" value="3" />
+        <setting name="*talking_distance" value="3.2" />
+        <setting name="*talking_duration_min" value="10000" />
+        <setting name="*talking_duration_max" value="10000" />
+        <setting name="*talking_cooldown" value="18000" />
+        <setting name="*greeting_chance_percent" value="2" />
+        <setting name="*greeting_duration" value="2200" />
+        <setting name="*greeting_distance" value="3.0" />
+        <setting name="*greeting_cooldown" value="12000" />
+        <setting name="*fight_chance_percent" value="0.4" />
+        <setting name="*fight_distance" value="2.8" />
+        <setting name="*fight_damage" value="7" />
+        <setting name="*fight_hit_interval" value="850" />
+        <setting name="*fight_cooldown" value="30000" />
+        <setting name="*retaliation_duration" value="20000" />
+        <setting name="*retaliation_damage" value="6" />
+        <setting name="*retaliation_hit_distance" value="2.0" />
+        <setting name="*retaliation_hit_interval" value="900" />
+    </settings>
+</meta>
